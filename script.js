@@ -4,22 +4,19 @@
 
 let newTask = document.querySelector("input#item-text");
 let res = document.querySelector("div.res");
-let task = [];
+
 
 
 
 
 
 function NewElement() {
+
+  
   if (newTask.length == 0){
     window.alert('Desculpa meu parça! n/ Mas o seu texto é invalido!')
   } else {
-    task.push(Number(newTask.value));
-    let item = document.createElement("p");
-    item.txt = `dddd${newTask.value}`;
-    res.appendChild(item);
-    res.innerHTML = ''
-    
+ 
   }
 
 }
